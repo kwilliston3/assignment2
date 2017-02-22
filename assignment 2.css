@@ -1,0 +1,60 @@
+
+#wrapper {
+  display: flex;
+  flex-flow: column;
+  flex-shrink: 100%
+ }
+.wrapper,.body, .header, .main, .nav, .aside, .footer {
+  flex: 1 100%;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin: auto;
+}
+body
+{
+     width: 90%;
+     max-width: 1024px
+     font-size: 100%;
+    color: #0F555A;
+    background-color: #B9C7C8;
+    text-align: center;
+}
+header{
+  width: 96.875%;
+  padding: 15px 1.5625%;
+  font-size: 40px;
+  font-family: "Beyond the Mountains", serif;
+  text-align: center
+}
+main, aside, footer {
+  font-family: fantasy;
+  text-align: center;
+  margin: auto;
+}
+main{
+  width: 96.875%;
+  padding: 15px 1.5625%;
+  text-align: center
+}
+aside {
+  width: 96.875%;
+  padding: 15px 1.5625%;
+  margin: auto;
+text-align: center
+}
+form {
+  border: 1px solid #0F555A;
+  padding: 15px 1.5625%;
+  width: 96.875%;
+  text-align: center
+
+}
+footer{
+  font-size: 20px;
+  font-family: monospace;
+  font-color: white;
+  width: 96.875%;
+  padding: 15px 1.5625%;
+}
